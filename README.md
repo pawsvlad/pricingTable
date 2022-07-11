@@ -1,1 +1,1 @@
-# pringTable
+# pricingTable
