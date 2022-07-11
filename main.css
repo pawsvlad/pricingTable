@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F2F4F5;
+}
+.container h2{
+    color: #4a965a;
+    font-size: 32px;
+    padding: 50px 0 ;
+    text-align: center;
+    font-weight: bolder;
+}
+.container p{
+    color: #000;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 2px;
+}
+.planRow{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat( auto-fit ,minmax (250px,1fr));
+    grid-gap: 25px;
+}
+.planCol{
+    background: rgba(14, 158, 44, 0.9);
+    text-align: center;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #0B0B0B;
+   
+}
+.planCol p{
+    color: #F2F4F5;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.planCol ul{
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+    color: #040615;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.planCol ul li{
+    margin:  15px 0;
+   
+}
+.planCol ul li::before{
+    content: '\2023';
+    font-size: 25px;
+    color: #f2f4f5;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.planPrice{
+    font-size: 44px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+    font-family: 'Sansita Swashed';
+}
+small{
+    font-size: 16px;
+    color: #C3CF0A;
+}
+span{
+    font-size: 28px;
+    color: rgba(14, 158, 44, 0.9);
+}
+.btn{
+    width: 100%;
+    padding: 14px 0;
+    background: #f2f4f5;
+    font-size: 15px;
+    font-family: 'Sansita Swashed';
+    border: 4px solid  #C3CF0A;
+    border-radius: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.6s;
+}
+.btn:hover{
+    background: transparent;
+    color: #F2F4F5;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: serif;
+}
